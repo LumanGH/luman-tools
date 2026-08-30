@@ -35,4 +35,4 @@ Requires Blender 4.2 or newer.
 
 Check my Tebex store: [lumanstudio.com](https://lumanstudio.com/)
 
-Support the tools: [donate via PayPal](https://www.paypal.com/donate/?hosted_button_id=QPA3YGUVXVWKY)
+Support the add-on: [donate via PayPal](https://www.paypal.com/donate/?hosted_button_id=QPA3YGUVXVWKY)
