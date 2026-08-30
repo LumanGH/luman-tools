@@ -1,13 +1,12 @@
 # Luman Tools
 
-A Blender add-on that gathers production tools into one sidebar tab.
-Built mainly for GTA V modding, and above all for MLO interiors.
+A Blender add-on for GTA V modding, gathering production tools into one sidebar tab.
 
 ## Interior
 
-Interior trim for **GTA V MLO interiors**: baseboards (skirting / cornice), door
-casings and window casings — mitered, unwrapped and textured. Select the walls,
-press one button, get an export-ready prop.
+Interior trim: baseboards (skirting / cornice), door casings and window casings —
+mitered, unwrapped and textured. Select the walls, press one button, get an
+export-ready prop.
 
 ![Interior](docs/preview.png)
 
