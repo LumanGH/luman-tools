@@ -20,9 +20,9 @@ Select the walls, press one button, get an export-ready prop.
 
 ## Install
 
-**[⬇ Download the latest release](https://github.com/LumanGH/luman-tools/releases/latest)**
+[Download the latest release](https://github.com/LumanGH/luman-tools/releases/latest)
 
-1. Grab `luman_tools-x.y.z.zip` from the release — do not unpack it.
+1. Download the ZIP from the release — do not unpack it.
 2. Blender → **Edit → Preferences → Add-ons → Install from Disk** → pick the ZIP.
 3. Enable **Luman Tools**.
 4. Press **N** in the 3D viewport → **Luman Tools** tab.
