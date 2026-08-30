@@ -1,7 +1,6 @@
 # Luman Tools
 
-My Blender toolkit — the tools I build for my own production work, gathered into
-one add-on and one sidebar tab.
+A Blender add-on that gathers production tools into one sidebar tab.
 
 **Interior** is the first tool in the set: interior trim for **GTA V MLO
 interiors** — baseboards (skirting / cornice), door casings and window casings,
