@@ -11,14 +11,14 @@ you get a separate mesh with clean corners, finished UVs and a material on it.
 
 **View3D → Sidebar (N) → Luman Tools → Interior**
 
-| Baseboard | Door Frame | Window Frame |
-|---|---|---|
-| <img src="docs/baseboard.png" width="240"> | <img src="docs/door-frame.png" width="240"> | <img src="docs/window-frame.png" width="240"> |
-| Select wall faces, or the edges where wall meets floor — a baseboard runs along them, at the floor or up at the ceiling. | Select the 6 edges around a doorway, on both sides of the wall — a frame goes round the opening, corners cut at 45°. | Select the 4 edges around a window, on one side of the wall — **Mirror** adds the frame on the other side too. |
+A baseboard runs along the wall faces or floor edges you selected, at the floor
+or up at the ceiling. A door frame goes round a doorway, a window frame round a
+window, with the corners cut at 45°.
 
-Both edges can be square, chamfer, bullnose, cove, ogee, stepped, or a profile
-you type in yourself. Drag a slider and the mesh rebuilds right away — the wall
-itself is never touched.
+In the panel you set height and depth, the shape of both edges — square, chamfer,
+bullnose, cove, ogee, stepped, or a profile you type in yourself — how deep it
+sits in the wall, texture scale, shading and the material. Drag a slider and the
+mesh rebuilds right away; the wall itself is never touched.
 
 ## Install
 
