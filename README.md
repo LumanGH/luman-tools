@@ -2,14 +2,13 @@
 
 A Blender add-on that gathers production tools into one sidebar tab.
 
-**Interior** is the first tool in the set: interior trim for **GTA V MLO
-interiors** — baseboards (skirting / cornice), door casings and window casings,
-mitered, unwrapped and textured. Select the walls, press one button, get an
-export-ready prop.
-
-![Luman Tools in the viewport](docs/preview.png)
-
 ## Interior
+
+Interior trim for **GTA V MLO interiors**: baseboards (skirting / cornice), door
+casings and window casings — mitered, unwrapped and textured. Select the walls,
+press one button, get an export-ready prop.
+
+![Interior](docs/preview.png)
 
 **View3D → Sidebar (N) → Luman Tools → Interior**
 
@@ -18,8 +17,6 @@ export-ready prop.
 | **Baseboard** | wall faces, or wall/floor edges | run along the selection, as Skirting or Cornice |
 | **Door Frame** | the opening's outline on both wall faces (6 edges) | casing swept outward, top corners mitered 45° |
 | **Window Frame** | the outline on one face (4 edges) | casing on this side; **Mirror** adds the far half, wall thickness read off the mesh |
-
-More tools will be added to the set.
 
 ## Install
 
