@@ -1,22 +1,21 @@
 # Luman Tools
 
-A Blender add-on for GTA V modding, gathering production tools into one sidebar tab.
+A Blender add-on for GTA V modding. All the tools sit in one sidebar tab.
 
 ## Interior
 
-Interior trim: baseboards (skirting / cornice), door casings and window casings —
-mitered, unwrapped and textured. Select the walls, press one button, get an
-export-ready prop.
+Baseboards, door frames and window frames. Pick the walls, press one button, and
+you get a separate mesh with clean corners, finished UVs and a material on it.
 
 ![Interior](docs/preview.png)
 
 **View3D → Sidebar (N) → Luman Tools → Interior**
 
-| | Select | Result |
+| | Select | You get |
 |---|---|---|
-| **Baseboard** | wall faces, or wall/floor edges | run along the selection, as Skirting or Cornice |
-| **Door Frame** | the opening's outline on both wall faces (6 edges) | casing swept outward, top corners mitered 45° |
-| **Window Frame** | the outline on one face (4 edges) | casing on this side; **Mirror** adds the far half, wall thickness read off the mesh |
+| **Baseboard** | wall faces, or the edges where wall meets floor | a baseboard along them — at the floor, or up at the ceiling |
+| **Door Frame** | the 6 edges around a doorway, on both sides of the wall | a frame around the opening, corners cut at 45° |
+| **Window Frame** | the 4 edges around a window, on one side of the wall | a frame on that side; **Mirror** adds the one on the other side |
 
 ## Install
 
