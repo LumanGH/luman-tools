@@ -30,3 +30,7 @@ mesh rebuilds right away; the wall itself is never touched.
 4. Press **N** in the 3D viewport → **Luman Tools** tab.
 
 Requires Blender 4.2 or newer.
+
+---
+
+Minigames for FiveM and RedM: [lumanstudio.com](https://lumanstudio.com/)
