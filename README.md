@@ -1,6 +1,7 @@
 # Luman Tools
 
 A Blender add-on that gathers production tools into one sidebar tab.
+Built mainly for GTA V modding, and above all for MLO interiors.
 
 ## Interior
 
