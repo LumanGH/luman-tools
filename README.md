@@ -17,6 +17,11 @@ you get a separate mesh with clean corners, finished UVs and a material on it.
 | **Door Frame** | the 6 edges around a doorway, on both sides of the wall | a frame around the opening, corners cut at 45° |
 | **Window Frame** | the 4 edges around a window, on one side of the wall | a frame on that side; **Mirror** adds the one on the other side |
 
+Sizes, shape and fit are all in the panel: height and depth, the shape of both
+edges (square, chamfer, bullnose, cove, ogee, stepped, or a profile you type in
+yourself), where it sits on the wall, texture scale, shading and the material.
+Drag a slider and the mesh rebuilds right away — the wall itself is never touched.
+
 ## Install
 
 [Download the latest release](https://github.com/LumanGH/luman-tools/releases/latest)
