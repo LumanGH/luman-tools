@@ -33,4 +33,4 @@ Requires Blender 4.2 or newer.
 
 ---
 
-Minigames for FiveM and RedM: [lumanstudio.com](https://lumanstudio.com/)
+My Tebex store, minigames for FiveM and RedM: [lumanstudio.com](https://lumanstudio.com/)
