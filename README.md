@@ -33,6 +33,8 @@ Requires Blender 4.2 or newer.
 
 ---
 
+Discord: [discord.gg/r2WrcRjxEp](https://discord.gg/r2WrcRjxEp)
+
 Check my Tebex store: [lumanstudio.com](https://lumanstudio.com/)
 
 Support the add-on: [donate via PayPal](https://www.paypal.com/donate/?hosted_button_id=QPA3YGUVXVWKY)
