@@ -1224,11 +1224,14 @@ class OBJECT_OT_LumanToggleMeshRotation(bpy.types.Operator):
 #   Interior      the three trim tools; each is a sub-panel, and each of its
 #                 groups of settings is a sub-panel of that
 #   Experimental  the older utilities, kept out of that workflow
+#   Support       one button, at the bottom
 #
 # The tool and section panels are generated from luman_baseboard.TOOLS and
 # .SECTIONS, so a tool or a section added there gets its panel for free.
 
 _CATEGORY = "Luman Tools"
+
+DONATE_URL = "https://www.paypal.com/donate/?hosted_button_id=QPA3YGUVXVWKY"
 
 
 class LUMAN_PT_interior(bpy.types.Panel):
@@ -1264,6 +1267,27 @@ class LUMAN_PT_experimental(bpy.types.Panel):
     def draw(self, context):
         self.layout.label(text="Rough edges - not part of the interior workflow",
                           icon='ERROR')
+
+
+class LUMAN_PT_support(bpy.types.Panel):
+    """Support the add-on"""
+    bl_label = "Support"
+    bl_idname = "LUMAN_PT_support"
+    bl_space_type = 'VIEW_3D'
+    bl_region_type = 'UI'
+    bl_category = _CATEGORY
+    # Left open: it is a single button, and a shut header would hide the only
+    # thing in it behind a click for no gain.
+    bl_order = 2
+
+    def draw_header(self, context):
+        self.layout.label(text="", icon='FUND')
+
+    def draw(self, context):
+        # wm.url_open is Blender's own operator - it hands the URL to the
+        # system browser, so nothing here has to touch the network.
+        self.layout.operator("wm.url_open", text="Donate via PayPal",
+                             icon='FUND').url = DONATE_URL
 
 
 def _panel(idname, label, icon, parent, order, closed, draw, doc):
@@ -1343,7 +1367,7 @@ def _experimental_panel(group, order):
 
 def _build_panels():
     """Every sidebar panel, parents before their children."""
-    panels = [LUMAN_PT_interior, LUMAN_PT_experimental]
+    panels = [LUMAN_PT_interior, LUMAN_PT_experimental, LUMAN_PT_support]
 
     for order, tool in enumerate(luman_baseboard.TOOLS):
         panels.append(_tool_panel(tool, order))
